@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import {Link} from 'react-scroll';
 import {Fade, Reveal} from 'react-reveal/';
 
 class About extends Component {
@@ -15,7 +15,14 @@ class About extends Component {
                                 <div className="about_content">
                                     <h2 className="t_color">{isacData.aboutme}</h2>
                                     <p>{isacData.aboutdetails}</p>
-                                    <Link to="/"  className="theme_btn active">ISAC Rapid — 10 minute</Link>
+                                    <Link
+                                     activeClass="active"
+                                     to="contact"
+                                     spy={true}
+                                     smooth={true}
+                                     offset={-86}
+                                     duration={500}
+                                     className="theme_btn active nav-link">ISAC Rapid — 10 minute</Link>
                                 </div>
                             </Fade>
                         </div>
