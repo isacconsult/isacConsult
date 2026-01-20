@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Reveal from 'react-reveal/Reveal/';
+import Reveal from 'react-reveal';
 
 class Oferta extends Component{
     render(){

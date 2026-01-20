@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Reveal from 'react-reveal/Reveal/';
+import Reveal from 'react-reveal';
 import WaterWave from 'react-water-wave';
 
 class Banner extends Component {

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import SplitText from "react-pose-text";
+// import SplitText from "react-pose-text";
 
-const charPoses = {};
+// const charPoses = {};
 class SectionThree extends Component {
   render() {
     return (
@@ -11,7 +11,7 @@ class SectionThree extends Component {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="slider_content slider_content_three">
-                  <h6>
+                   {/** <h6>
                     <span className="br"></span>
                     <SplitText charPoses={charPoses}>Team Works</SplitText>
                   </h6>
@@ -20,6 +20,7 @@ class SectionThree extends Component {
                       Your online project can be ready
                     </SplitText>
                   </h2>
+                  */}
                   <p>
                     Start using our easy-to-use tools with multiple options to
                     improve.

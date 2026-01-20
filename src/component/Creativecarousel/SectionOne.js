@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import SplitText from "react-pose-text";
-const charPoses = {};
+// import SplitText from "react-pose-text";
+// const charPoses = {};
 
 class SectionOne extends Component {
   render() {
@@ -11,15 +11,15 @@ class SectionOne extends Component {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="slider_content">
-                  <h6>
+                    {/*<<h6>
                     <span className="br"></span>
-                    <SplitText charPoses={charPoses}>Photography</SplitText>
+                  SplitText charPoses={charPoses}>Photography</SplitText>
                   </h6>
                   <h2>
                     <SplitText charPoses={charPoses}>
                       Fruit Photography
                     </SplitText>
-                  </h2>
+                  </h2>*/}
                   <p>
                     Start using our easy-to-use tools with multiple options to
                     improve.

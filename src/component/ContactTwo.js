@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Reveal from "react-reveal/Reveal/";
+import Reveal from "react-reveal";
 import SectionTitleTwo from "../component/Banner/SectionTitleTwo";
 import Form from "./Form";
 class ContactTwo extends Component {

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import SplitText from "react-pose-text";
+// import SplitText from "react-pose-text";
 
-const charPoses = {};
+// const charPoses = {};
 
 class SectionTwo extends Component {
   render() {
@@ -12,6 +12,7 @@ class SectionTwo extends Component {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="slider_content slider_content_two">
+                   {/** 
                   <h6>
                     <span className="br"></span>
                     <SplitText charPoses={charPoses}>Developer</SplitText>
@@ -21,9 +22,11 @@ class SectionTwo extends Component {
                       Martin Solonick Independent
                     </SplitText>
                   </h2>
+                  
                   <h2 className="bold">
                     <SplitText charPoses={charPoses}>Frelencer</SplitText>
                   </h2>
+                   */}
                   <p>
                     Start using our easy-to-use tools with multiple options to
                     improve.

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Parallax} from 'react-parallax/';
+// @ts-ignore
 import {Fade , Reveal} from 'react-reveal/';
 const image = require('../../image/profile.jpg');
 
