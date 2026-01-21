@@ -667,7 +667,10 @@ h6 {
   transform: scaleX(0);
 }
 .about_img img {
-  margin-left: -50px;
+
+  width: 100%;
+  /* The magic line – choose ONE depending on what you want: */
+  object-fit: cover; 
 }
 
 .work_area {
