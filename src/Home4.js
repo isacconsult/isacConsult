@@ -7,7 +7,6 @@ import SchemaIsac from './component/SchemaIsac'
 import CuCineLucrez from './component/CuCineLucrez'
 import Oferta from './component/Oferta'
 import Contact from './component/Contact';
-import Contact2 from './component/ContactTwo';
 import CtaFinal from './component/CtaFinal'
 import Skill from './component/Skill/Skill';
 import Footer from './component/Footer';
@@ -30,7 +29,6 @@ export const Home4 = () => (
       <CtaFinal wClass="work_area"/>
       <Skill/>
       <Contact isacData={isacData}/>
-      <Contact2 isacData={isacData}/>
       <Footer isacData={isacData}/>
 
        {/* 

@@ -3,6 +3,8 @@ import teenagerIcon from '../image/teenager.jpg'
 import youngIcon from '../image/young.jpg'
 import adultIcon from '../image/adult.jpg'
 import oldIcon from '../image/old.jpg'
+// import adultIcon1 from '../image/adult1.jpg'
+//import oldIcon1 from '../image/old1.jpg'
 
 const isacData = {
   name: "Poziționare Comportamentală Contextuală™",
@@ -48,7 +50,7 @@ const isacData = {
       id: 1,
       iconName: childIcon,
       serviceTitle: "Copii",
-      sDetails: "Situatie: copilul testează lfimitele.",
+      sDetails: "Situatie: copilul testează limitele.",
       sDetails1: 'ISAC: ajustezi reactia adultului → limită clară, consecventă, fără escaladare.',  
       sDetails2: 'Rezultat: comportamentul se stabilizeaza.',
     },

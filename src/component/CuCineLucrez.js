@@ -29,7 +29,7 @@ class CuCineLucrez extends Component{
                                                 <a href=".#"><h2 className="t_color" style={{ marginTop: '10px'}}>{item.serviceTitle}</h2></a>
                                                 <p>{item.sDetails}</p>
                                                 <p>{item.sDetails1}</p>
-                                                <p>{item.sDetails2}</p>
+                                                <p style={{ maxWidth: "90%"}}>{item.sDetails2}</p>
                                             </div>
                                         </div>
                                         )
