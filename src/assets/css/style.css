@@ -1512,12 +1512,16 @@ h6 {
 
 .footer-content .logo {
   display: inline-block;
-  margin-bottom: 30px;
   max-width: 50px;
 }
 
 .footer-content .logo img {
   max-width: 100%;
+  margin: 15px auto;
+  border: 2px solid white;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
 }
 
 .footer-content ul li {

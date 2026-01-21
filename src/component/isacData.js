@@ -98,7 +98,8 @@ const isacData = {
         {
           id: 2,
           icon: "icon_phone",
-          text: "0724 319 099",
+          text: "+40 724 319 099",
+          href: 'tel:+40724 319 099'
         },
         {
           id: 3,

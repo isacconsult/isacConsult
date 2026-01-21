@@ -12,7 +12,7 @@ class Footer extends Component{
                             </h6>
                         <h6>bazată pe comportamente observabile și funcția lor
                             în contexte specifice.</h6>
-                        <h6>- - -</h6>
+                    
                         <Link to="/" className="logo wow fadeInDown" data-wow-delay="0.4s">
                             <img src={require('../image/logo2.png')} alt=""/>
                         </Link>
