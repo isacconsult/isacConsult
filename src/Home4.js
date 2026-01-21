@@ -29,15 +29,16 @@ export const Home4 = () => (
       <Oferta wClass="work_area_two" isacData={isacData}/>
       <CtaFinal wClass="work_area"/>
       <Skill/>
-      {/* 
+      <Contact isacData={isacData}/>
+      <Contact2 isacData={isacData}/>
+      <Footer isacData={isacData}/>
+
+       {/* 
         <Portfolio/>
         <Testimonial/>
         <Clientslogo/>
          <Blog/>
          */}
-      <Contact isacData={isacData}/>
-      <Contact2 isacData={isacData}/>
-      <Footer isacData={isacData}/>
   </div>
 )
 

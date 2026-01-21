@@ -7,7 +7,7 @@ class Oferta extends Component{
         return(
             <section className={`${wClass}`} id="service">
                 <div className="container">
-                  <div className="section_title text-center mb_60">
+                  <div className="section_title text-center">
                     <Reveal  effect="fadeInUp"><h2 className="mb_0 title_h2 t_color">OFERTA (SIMPLU, MONETIZABIL)</h2></Reveal>
                     <Reveal  effect="fadeInUp" duration={1500}><p className="mb_0 title_p" 
                       style={{ fontSize: "18px", fontWeight: 'bold' }}>ISAC Rapid </p></Reveal>
