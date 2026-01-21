@@ -13,6 +13,7 @@ class CtaFinal extends Component{
                     <Reveal  effect="fadeInUp"><p className="mb_0 title_p">✻ ✻ ✻</p></Reveal>
                     <Reveal  effect="fadeInUp" duration={1500}><p className="mb_0 title_p">În 10 minute îți spun ce comportament să folosești
 și cum să-l aplici.</p></Reveal>
+                    <Reveal  effect="fadeInLeft" duration={2000}><span className="bottom_line"></span></Reveal> 
                   </div>
                 </div>
             </section>

@@ -18,6 +18,7 @@ class Oferta extends Component{
                       style={{ fontSize: "18px", fontWeight: 'bold' }}>ISAC Strategy</p></Reveal>
                     <Reveal  effect="fadeInUp" duration={1500}><p className="mb_0 title_p">50 minute | 500 RON</p></Reveal>
                     <Reveal  effect="fadeInUp" duration={1500}><p className="mb_0 title_p">Claritate + reguli reutilizabile.</p></Reveal>
+                    <Reveal  effect="fadeInLeft" duration={2000}><span className="bottom_line"></span></Reveal> 
                   </div>
                 </div>
             </section>

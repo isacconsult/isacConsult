@@ -18,7 +18,7 @@ class SchemaIsac extends Component{
                     <Reveal  effect="fadeInUp" duration={1500}><p className="mb_0 title_p">Acțiunea ta</p></Reveal>
                     <Reveal  effect="fadeInUp" duration={1500}><p className="mb_0 title_p">⬇️</p></Reveal>
                     <Reveal  effect="fadeInUp" duration={1500}><p className="mb_0 title_p">Rezultat</p></Reveal>
-                    <Reveal  effect="fadeInUp" duration={1500}><p className="mb_0 title_p">*</p></Reveal>
+                    <Reveal  effect="fadeInUp" duration={1500}><p className="mb_0 title_p">✻ ✻ ✻</p></Reveal>
                     <Reveal  effect="fadeInUp" duration={1500}><p className="mb_0 title_p">Regulă:</p></Reveal>
                     <Reveal  effect="fadeInUp" duration={1500}><p className="mb_0 title_p">Nu schimbi omul. Schimbi reacția ta.</p></Reveal>
                     <Reveal  effect="fadeInLeft" duration={2000}><span className="bottom_line"></span></Reveal>

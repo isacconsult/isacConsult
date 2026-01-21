@@ -9,8 +9,7 @@ class CuCineLucrez extends Component{
         return(
             <section className={`${wClass}`} id="service">
                 <div className="container">
-                    <Sectiontitle Title="CU CINE LUCREZ (MINI-CAZURI)" TitleP="exemple clare"/>
-                        
+                    <Sectiontitle Title="CU CINE LUCREZ (MINI-CAZURI)" TitleP="exemple clare" hideLIne/>     
                      <Fade bottom cascade duration={1000}>
                         <div className="row">
                             {
