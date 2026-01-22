@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fcaca089.css",
-    "main.js": "/static/js/main.79684ab6.js",
+    "main.css": "/static/css/main.b2026078.css",
+    "main.js": "/static/js/main.2076d8cb.js",
     "static/media/teenager.jpg": "/static/media/teenager.adcf4f822d92c5e88370.jpg",
     "static/media/child.jpg": "/static/media/child.c90c6c973d5195f6a799.jpg",
     "static/media/adult1.jpg": "/static/media/adult1.c2048f700055460fb60f.jpg",
@@ -14,10 +14,11 @@
     "static/media/slider_img2.jpg": "/static/media/slider_img2.3af7820a14d79de09717.jpg",
     "static/media/slider_img4.jpg": "/static/media/slider_img4.a4cd64edbfc3b5cb8173.jpg",
     "static/media/adult.jpg": "/static/media/adult.6d2d92949fd31729e8c5.jpg",
+    "static/media/isac_the_white.jpg": "/static/media/isac_the_white.196bdb773b75701514f0.jpg",
     "static/media/old.jpg": "/static/media/old.178d0cb220de882126ea.jpg",
     "static/media/10.jpg": "/static/media/10.c5c0717d0852dc03d330.jpg",
     "static/media/banner_img.svg": "/static/media/banner_img.a779e6bfe3083f2d2e9f.svg",
-    "static/media/apporoach_man_img.png": "/static/media/apporoach_man_img.e9e6f7bb9e65aaf55624.png",
+    "static/media/logo.png": "/static/media/logo.fe285685575c013af7a2.png",
     "static/media/slider_img1.jpg": "/static/media/slider_img1.6e7cfc25e50d13a3ff3f.jpg",
     "static/media/slider_img3.jpg": "/static/media/slider_img3.8f7d8c056af2b07df5e0.jpg",
     "static/media/mobile.svg": "/static/media/mobile.48f98e6c4c6733453019.svg",
@@ -37,7 +38,6 @@
     "static/media/line1.png": "/static/media/line1.6370f32535915dccba47.png",
     "static/media/bottomshape.png": "/static/media/bottomshape.8ee04c9042c78ee910f0.png",
     "static/media/topshape.png": "/static/media/topshape.7b560c80176b8580225f.png",
-    "static/media/logo.png": "/static/media/logo.5c84b3e07c244782fbb4.png",
     "static/media/logo2.png": "/static/media/logo2.5c84b3e07c244782fbb4.png",
     "static/media/1.jpg": "/static/media/1.97dc87ffb3cbab1a5dea.jpg",
     "static/media/topshape2.png": "/static/media/topshape2.3100890c118e041b24d6.png",
@@ -53,11 +53,11 @@
     "static/media/Flaticon.woff2": "/static/media/Flaticon.d6115f97f3ac538bf27b.woff2",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.fcaca089.css.map": "/static/css/main.fcaca089.css.map",
-    "main.79684ab6.js.map": "/static/js/main.79684ab6.js.map"
+    "main.b2026078.css.map": "/static/css/main.b2026078.css.map",
+    "main.2076d8cb.js.map": "/static/js/main.2076d8cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcaca089.css",
-    "static/js/main.79684ab6.js"
+    "static/css/main.b2026078.css",
+    "static/js/main.2076d8cb.js"
   ]
 }
