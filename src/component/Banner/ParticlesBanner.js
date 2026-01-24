@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import Particles from "./Particles";
-import Reveal from "react-reveal/Reveal/";
+import Reveal from "react-reveal";
 import Typer from "./Typer";
+import isacData from "../isacData";
 
 class ParticlesBanner extends Component {
   render() {
-    let isacData = this.props.isacData;
+    let articleData = this.props.articleData;
+    
     return (
       <section id="home">
         <div className="banner_area_two">
@@ -24,19 +26,16 @@ class ParticlesBanner extends Component {
             <div className="banner_content">
               <Reveal effect="fadeInUp">
                 <h2 className="wow fadeInLeft animated">
-                  I'm {isacData.name2}
+                  {articleData.title}
                 </h2>
               </Reveal>
-              <Reveal effect="fadeInUp" duration={1500}>
-                <h3>{isacData.ptext}</h3>
-              </Reveal>
               <Typer
-                heading={"Specialized in"}
+                heading={"Specialist in"}
                 dataText={[
-                  "Developer.",
-                  "Photographer.",
-                  "Designing UI/UX.",
-                  "Freelancer.",
+                  "Stimuli.",
+                  "Comportamente.",
+                  "Decizii.",
+                  "Actiuni.",
                 ]}
               />
               <ul className="list_style social_icon">

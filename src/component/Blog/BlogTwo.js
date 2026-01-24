@@ -1,7 +1,7 @@
 import React , {Component} from 'react';
 import SectionTitleTwo from '../Banner/SectionTitleTwo';
 import BlogTwoitems from '../Blog/BlogTwoitems';
-import Reveal from 'react-reveal/Reveal/';
+import Reveal from 'react-reveal';
 class BlogTwo extends Component{
     render(){
         return(

@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 /*-----pages-----*/
 import { Home4 } from "./Home4";
 import { NotFound } from "./404";
-import { Creativecarousel } from "./Creative-carousel";
+import { Article } from "./component/Blog/Article";
 import logo from './image/logo.png'; 
 
 /*-----not used pages ... for now -----*/
@@ -15,6 +15,7 @@ import logo from './image/logo.png';
 // import { Home6 } from "./Home6";
 // import { Homefrelencer } from "./Home-frelencer";
 // import { HomeDeveloper } from "./Home-developer";
+// import { Creativecarousel } from "./Creative-carousel";
 
 // seo-constants.tsx
 // ──────────────────────────────────────────────────────────────
@@ -137,14 +138,17 @@ class App extends Component {
             <Switch>
             <Route path="/Home4" component={Home4} />
               <Route exact path="/" component={Home4} />
+               {/* Dynamic route for individual posts */}
+              <Route path="/article/:slug" component={Article} />
               <Route component={NotFound} />
-              <Route path="/Creative-carousel" component={Creativecarousel} />
-
+             
+              
               {/*
               <Route path="/Home2" component={Home2} />
               <Route path="/Home3" component={Home3} />
               <Route path="/Home5" component={Home5} />
               <Route path="/Home6" component={Home6} />
+               <Route path="/Creative-carousel" component={Creativecarousel} />
               <Route path="/Home-frelencer" component={Homefrelencer} />
               <Route path="/Home-developer" component={HomeDeveloper} />
               */}

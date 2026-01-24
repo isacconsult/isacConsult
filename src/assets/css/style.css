@@ -1241,6 +1241,7 @@ h6 {
 /*=============== blog_area css =============*/
 .blog_area {
   background: #fafafa;
+  border-top: 3px solid black;
   padding: 100px 0px;
 }
 
@@ -1249,7 +1250,6 @@ h6 {
 }
 
 .blog_post {
-  cursor: pointer;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;

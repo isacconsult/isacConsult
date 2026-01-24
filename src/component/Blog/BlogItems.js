@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 class BlogItems extends Component{
     render(){
-        let {bTitle, bDetails, btnText, image, Pdata} = this.props;
+        let {bTitle, bDetails, btnText, image, Pdata, slug} = this.props;
+        console.log(slug)
         return(
             <div className="col-lg-4 col-sm-6">
                 <div className="blog_post">
@@ -15,16 +16,12 @@ class BlogItems extends Component{
                         <div className="blog-meta">
                             <span>
                                 <i className="icon_tags_alt"></i>
-                                BY : Tasnim
-                            </span>
-                            <span>
-                                <i className="icon_chat_alt"></i>
-                                <a href="/#">0 comment</a>
+                                BY : Isac
                             </span>
                         </div>
-                        <a href="/#"><h2>{bTitle}</h2></a>
+                        <a href={`/article/${slug}`}><h2>{bTitle}</h2></a>
                         <p>{bDetails}</p>
-                        <a href="/#" className="read_btn">{btnText}<i className="arrow_right"></i> </a>
+                        <a href={`/article/${slug}`} className="read_btn">{btnText}<i className="arrow_right"></i> </a>
                     </div>
                 </div>
             </div>
