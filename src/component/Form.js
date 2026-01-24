@@ -24,20 +24,20 @@ class Form extends React.Component {
 
     switch (name) {
       case "name":
-        errors.name = value.trim() === "" ? "Name is required" : "";
+        errors.name = value.trim() === "" ? "Numele e obligatoriu" : "";
         break;
       case "subject":
-        errors.subject = value.length < 5 ? "Subject must be at least 5 characters" : "";
+        errors.subject = value.length < 5 ? "Subiectul trebuie sa aibă 5 caractere" : "";
         break;
       case "phone":
-        errors.phone = value.trim() === "" ? "Phone is required" : "";
+        errors.phone = value.trim() === "" ? "Telefonul e obligatoriu" : "";
         break;
       case "email":
-        errors.email = value.trim() === "" ? "Email is required" : "";
+        errors.email = value.trim() === "" ? "Emailul e obligatoriu" : "";
         const atPos = value.indexOf("@");
         const dotPos = value.lastIndexOf(".");
         if (atPos < 1 || dotPos - atPos < 2) {
-          errors.email = "Please enter a valid email";
+          errors.email = "Vă rog introduceți un email valid";
         }
         break;
       default:
@@ -51,7 +51,7 @@ class Form extends React.Component {
     e.preventDefault();
 
     if (Object.values(this.state.errors).some(err => err !== "")) {
-      this.setState({ status: "Please fix the errors above" });
+      this.setState({ status: "Vă rog rezolvați erorile de mai sus" });
       return;
     }
 
@@ -69,7 +69,7 @@ class Form extends React.Component {
       .then(
         (result) => {
           console.log("SUCCESS!", result.text);
-          this.setState({ status: "Message sent successfully! 🎉" });
+          this.setState({ status: "Mesaj trimis cu succes! 🎉" });
           this.formRef.current.reset(); // Clear form using ref
         },
         (error) => {
@@ -96,7 +96,7 @@ class Form extends React.Component {
               id="name"
               name="name"
               className="form-control"
-              placeholder="Your Name*"
+              placeholder="Nume*"
               onChange={this.handleChange}
             />
             <p className="error">{errors.name}</p>
@@ -108,7 +108,7 @@ class Form extends React.Component {
               id="email"
               name="email"
               className="form-control"
-              placeholder="Your Email*"
+              placeholder="Email*"
               onChange={this.handleChange}
             />
             <p className="error">{errors.email}</p>
@@ -119,7 +119,7 @@ class Form extends React.Component {
               id="subject"
               name="subject"
               className="form-control"
-              placeholder="Subject*"
+              placeholder="Subiect*"
               onChange={this.handleChange}
             />
             <p className="error">{errors.subject}</p>
@@ -130,7 +130,7 @@ class Form extends React.Component {
               id="phone"
               name="phone"
               className="form-control"
-              placeholder="Phone*"
+              placeholder="Telefon*"
               onChange={this.handleChange}
             />
             <p className="error">{errors.phone}</p>
@@ -142,12 +142,12 @@ class Form extends React.Component {
           id="message"
           className="form-control"
           rows="6"
-          placeholder="Your Message ..."
+          placeholder="Messaj ..."
           onChange={this.handleChange}
         ></textarea>
 
         <button type="submit" className="btn send_btn theme_btn">
-          Send Message
+          Trimite Mesaj
         </button>
 
         {status && (

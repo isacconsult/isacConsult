@@ -40,7 +40,7 @@ class Navbar extends Component {
                     offset={-86}
                     duration={500}
                   >
-                    Home
+                    Acasă
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -53,7 +53,7 @@ class Navbar extends Component {
                     offset={-86}
                     duration={500}
                   >
-                    About
+                    Despre
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -66,7 +66,7 @@ class Navbar extends Component {
                     offset={-86}
                     duration={500}
                   >
-                    Service
+                    Servicii
                   </Link>
                 </li>
                  {/* <li className="nav-item">

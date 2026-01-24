@@ -44,9 +44,9 @@ class Contact extends Component {
                 <div className="input_form">
                   <h4>{isacData.contacttitle}</h4>
                   <Form />
-                  <div id="success">Your message succesfully sent!</div>
+                  <div id="success">Mesajul a fost trimis cu succes!</div>
                   <div id="error">
-                    Opps! There is something wrong. Please try again
+                    Ceva nu a mers. Te rog incearcă incă o dată.
                   </div>
                 </div>
               </Reveal>

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 class BlogItems extends Component{
     render(){
         let {bTitle, bDetails, btnText, image, Pdata, slug} = this.props;
-        console.log(slug)
+    
         return(
             <div className="col-lg-4 col-sm-6">
                 <div className="blog_post">

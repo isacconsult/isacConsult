@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { lazy, Suspense } from 'react';
-import Navbar from '../../component/Navbar/Navbar';
+import Navbar from '../../component/Navbar/NavbarTwo';
 import PBanner from '../../component/Banner/ParticlesBanner';
 import Footer from '../../component/Footer';
 import isacData from '../isacData';

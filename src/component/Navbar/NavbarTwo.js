@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Sticky from "react-stickynode";
-import { Link } from "react-scroll";
+import { Link } from 'react-router-dom';
 
 class NavbarTwo extends Component {
   render() {
@@ -9,7 +9,7 @@ class NavbarTwo extends Component {
       <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
         <nav className={`navbar navbar-expand-lg navbar-light ${mClass}`}>
           <div className={`container ${mContainer}`}>
-            <a className="navbar-brand logo_h" href="./">
+            <a className="navbar-brand logo_h" href="/">
               <img src={require("../../image/" + mainlogo)} alt="" />
               <img src={require("../../image/" + stickylogo)} alt="" />
             </a>
@@ -41,91 +41,13 @@ class NavbarTwo extends Component {
                   <Link
                     className="nav-link"
                     activeClass="active"
-                    to="home"
+                    to='/'
                     spy={true}
                     smooth={true}
                     offset={0}
                     duration={500}
                   >
-                    Home
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    className="nav-link"
-                    activeClass="active"
-                    to="service"
-                    spy={true}
-                    smooth={true}
-                    offset={-86}
-                    duration={500}
-                  >
-                    Service
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    className="nav-link"
-                    activeClass="active"
-                    to="portfolio"
-                    spy={true}
-                    smooth={true}
-                    offset={-86}
-                    duration={500}
-                  >
-                    Portfolio
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    className="nav-link"
-                    activeClass="active"
-                    to="skill"
-                    spy={true}
-                    smooth={true}
-                    offset={-86}
-                    duration={500}
-                  >
-                    Skill
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    className="nav-link"
-                    activeClass="active"
-                    to="testimonial"
-                    spy={true}
-                    smooth={true}
-                    offset={-86}
-                    duration={500}
-                  >
-                    Testimonial
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    className="nav-link"
-                    activeClass="active"
-                    to="blog"
-                    spy={true}
-                    smooth={true}
-                    offset={-86}
-                    duration={500}
-                  >
-                    Blog
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    className="nav-link"
-                    activeClass="active"
-                    to="contacts"
-                    spy={true}
-                    smooth={true}
-                    offset={-86}
-                    duration={500}
-                  >
-                    Contact
+                    Acasă
                   </Link>
                 </li>
               </ul>
