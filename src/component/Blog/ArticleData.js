@@ -671,6 +671,14 @@ const articleData = [
     date: '3 Mai',
     index: 84
   },
+  {
+    title: 'Control vs siguranță într-o relație',
+    slug: 'optzecicinci',
+    desc: 'Controlul și siguranța sunt două lucruri diferite, deși multe persoane le ...',
+    image: 'control_siguranta.jpg',
+    date: '8 Mai',
+    index: 85
+  },
 ]
 
 export default articleData;

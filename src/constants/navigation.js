@@ -87,6 +87,7 @@ export const navigationItems = [
   { position: 82, name: 'Siguranța in relații', url: `${siteUrl}/articole/optzecidoi` },
   { position: 83, name: 'Interacțiune vs construcție într-o relație', url: `${siteUrl}/articole/optzecitrei` },
   { position: 84, name: 'Efectele punerii unei persoane în fața faptului împlinit', url: `${siteUrl}/articole/optzecipatru` },
+  { position: 85, name: 'Control vs siguranță într-o relație', url: `${siteUrl}/articole/optzecicinci` },
 ];
 
 export const siteNavScript = {

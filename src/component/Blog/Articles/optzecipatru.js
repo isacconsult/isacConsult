@@ -5,7 +5,6 @@ const Optzecipatru = () => {
     <p className="bold_text nineteen">În relațiile dintre oameni, modul în care sunt luate deciziile influențează direct nivelul de siguranță și stabilitate.</p>
     <p style={{ marginBottom: "25px"}} />
     <div style={{ textAlign: 'left'}}>
-      <p style={{ marginBottom: "15px"}} />
       <p>O situație frecventă este aceea în care o persoană îl pune pe celălalt, „în fața faptului împlinit", 
         adică ia o decizie importantă fără consultare și o prezintă ca fiind deja stabilită. 
         Acest comportament are efecte clare asupra modului în care funcționeaza relația și asupra stării emoționale a celui implicat.</p>
@@ -53,11 +52,6 @@ const Optzecipatru = () => {
       <p>În concluzie, punerea unei persoane în fața faptului împlinit are efecte negative asupra siguranței și stabilității relației.
         Lipsa de implicare în decizii, incertitudinea și pierderea controlului generează anxietate și dezechilibru.
         Pentru ca o relație să funcționeze sănătos, este necesar ca deciziile să fie discutate și asumate împreună, nu impuse unilateral.</p>
-      <p style={{ marginBottom: "15px"}} />
-      <p></p>
-      <p style={{ marginBottom: "15px"}} />
-      <p></p>
-      <p style={{ marginBottom: "15px"}} />
     </div>
     <p style={{ margin: "25px auto"}}>✻ ✻ ✻</p>
   </div>
