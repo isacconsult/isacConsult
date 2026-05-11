@@ -679,6 +679,22 @@ const articleData = [
     date: '8 Mai',
     index: 85
   },
+  {
+    title: 'Determinismul simplificat și influența mediului asupra omului',
+    slug: 'optzecisase',
+    desc: 'În viața de zi cu zi, oamenii tind să explice comportamentul altora prin experiențele ...',
+    image: 'determinism_simplificat.jpg',
+    date: '11 Mai',
+    index: 86
+  },
+  {
+    title: 'Modelul biopsihosocial și influența factorilor asupra comportamentului uman',
+    slug: 'optzecisapte',
+    desc: 'Comportamentul și dezvoltarea unei persoane nu sunt determinate de ...',
+    image: 'model_bps.jpg',
+    date: '11 Mai',
+    index: 87
+  },
 ]
 
 export default articleData;

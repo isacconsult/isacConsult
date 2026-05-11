@@ -88,6 +88,8 @@ export const navigationItems = [
   { position: 83, name: 'Interacțiune vs construcție într-o relație', url: `${siteUrl}/articole/optzecitrei` },
   { position: 84, name: 'Efectele punerii unei persoane în fața faptului împlinit', url: `${siteUrl}/articole/optzecipatru` },
   { position: 85, name: 'Control vs siguranță într-o relație', url: `${siteUrl}/articole/optzecicinci` },
+  { position: 86, name: 'Determinismul simplificat și influența mediului asupra omului', url: `${siteUrl}/articole/optzecisase` },
+  { position: 87, name: 'Modelul biopsihosocial și influența factorilor asupra comportamentului uman', url: `${siteUrl}/articole/optzecisapte` },
 ];
 
 export const siteNavScript = {
