@@ -90,6 +90,10 @@ export const navigationItems = [
   { position: 85, name: 'Control vs siguranță într-o relație', url: `${siteUrl}/articole/optzecicinci` },
   { position: 86, name: 'Determinismul simplificat și influența mediului asupra omului', url: `${siteUrl}/articole/optzecisase` },
   { position: 87, name: 'Modelul biopsihosocial și influența factorilor asupra comportamentului uman', url: `${siteUrl}/articole/optzecisapte` },
+  { position: 88, name: 'Cum pot oamenii să distrugă o relație fără conflicte directe', url: `${siteUrl}/articole/optzeciopt` },
+  { position: 89, name: 'Neimplicarea totală într-o relație și ce arată ea despre dinamica dintre parteneri', url: `${siteUrl}/articole/optzecinoua` },
+
+  
 ];
 
 export const siteNavScript = {

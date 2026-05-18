@@ -695,6 +695,22 @@ const articleData = [
     date: '11 Mai',
     index: 87
   },
+  {
+    title: 'Cum pot oamenii să distrugă o relație fără conflicte directe',
+    slug: 'optzeciopt',
+    desc: 'Mulți oameni cred că relațiile se termină doar din cauza certurilor ...',
+    image: 'relatie_conflict.jpg',
+    date: '18 Mai',
+    index: 88
+  },
+  {
+    title: 'Neimplicarea totală într-o relație și ce arată ea despre dinamica dintre parteneri',
+    slug: 'optzecinoua',
+    desc: 'În unele relații, problema nu este conflictul, ci absența aproape completă a ...',
+    image: 'neimplicare.jpg',
+    date: '18 Mai',
+    index: 89
+  },
 ]
 
 export default articleData;
