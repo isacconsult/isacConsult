@@ -711,6 +711,22 @@ const articleData = [
     date: '18 Mai',
     index: 89
   },
+  {
+    title: 'Relația susținută unilateral și lipsa reciprocității reale',
+    slug: 'nouazeci',
+    desc: 'Există relații în care, la suprafață, cei doi oameni par împreună, însă în realitate ...',
+    image: 'sustinere_unilaterala.jpg',
+    date: '19 Mai',
+    index: 90
+  },
+  {
+    title: 'Deconectarea relațională și investiția emoțională orientată în afara relației',
+    slug: 'nouazeciunu',
+    desc: 'În unele relații, problema principală nu este conflictul direct, ci lipsa aproape completã de ...',
+    image: 'deconectare_relationala.jpg',
+    date: '19 Mai',
+    index: 91
+  },
 ]
 
 export default articleData;

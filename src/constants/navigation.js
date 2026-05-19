@@ -92,7 +92,8 @@ export const navigationItems = [
   { position: 87, name: 'Modelul biopsihosocial și influența factorilor asupra comportamentului uman', url: `${siteUrl}/articole/optzecisapte` },
   { position: 88, name: 'Cum pot oamenii să distrugă o relație fără conflicte directe', url: `${siteUrl}/articole/optzeciopt` },
   { position: 89, name: 'Neimplicarea totală într-o relație și ce arată ea despre dinamica dintre parteneri', url: `${siteUrl}/articole/optzecinoua` },
-
+  { position: 90, name: 'Relația susținută unilateral și lipsa reciprocității reale', url: `${siteUrl}/articole/nouazeci` },
+  { position: 91, name: 'Deconectarea relațională și investiția emoțională orientată în afara relației', url: `${siteUrl}/articole/nouazeciunu` },
   
 ];
 
