@@ -94,7 +94,10 @@ export const navigationItems = [
   { position: 89, name: 'Neimplicarea totală într-o relație și ce arată ea despre dinamica dintre parteneri', url: `${siteUrl}/articole/optzecinoua` },
   { position: 90, name: 'Relația susținută unilateral și lipsa reciprocității reale', url: `${siteUrl}/articole/nouazeci` },
   { position: 91, name: 'Deconectarea relațională și investiția emoțională orientată în afara relației', url: `${siteUrl}/articole/nouazeciunu` },
-  
+  { position: 92, name: 'Când o persoană percepe orice discuție despre relație ca atac', url: `${siteUrl}/articole/nouazecidoi` },
+  { position: 93, name: 'Diferența dintre comportament și valoarea personală', url: `${siteUrl}/articole/nouazecitrei` },
+  { position: 94, name: 'Putere și Respect', url: `${siteUrl}/articole/nouazecipatru` },
+  { position: 95, name: 'Control vs Siguranță în relații (2)', url: `${siteUrl}/articole/nouazecicinci` },
 ];
 
 export const siteNavScript = {

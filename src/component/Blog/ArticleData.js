@@ -722,10 +722,42 @@ const articleData = [
   {
     title: 'Deconectarea relațională și investiția emoțională orientată în afara relației',
     slug: 'nouazeciunu',
-    desc: 'În unele relații, problema principală nu este conflictul direct, ci lipsa aproape completã de ...',
+    desc: 'În unele relații, problema principală nu este conflictul direct, ci lipsa aproape completă de ...',
     image: 'deconectare_relationala.jpg',
     date: '19 Mai',
     index: 91
+  },
+  {
+    title: 'Când o persoană percepe orice discuție despre relație ca atac',
+    slug: 'nouazecidoi',
+    desc: 'Într-o relație sănătoasă, cei doi parteneri trebuie să poată discuta despre probleme ...',
+    image: 'atac_personal.jpg',
+    date: '26 Mai',
+    index: 92
+  },
+  {
+    title: 'Diferența dintre comportament și valoarea personală',
+    slug: 'nouazecitrei',
+    desc: 'Una dintre cele mai importante diferențe psihologice pe care mulți oameni nu reușesc să o facă ...',
+    image: 'comportament_valoare.jpg',
+    date: '28 Mai',
+    index: 93
+  },
+  {
+    title: 'Putere și Respect',
+    slug: 'nouazecipatru',
+    desc: 'Fundamentul relațiilor sănătoase și al funcționării umane ...',
+    image: 'putere_respect.jpg',
+    date: '28 Mai',
+    index: 94
+  },
+  {
+    title: 'Control vs Siguranță în relații (2)',
+    slug: 'nouazecicinci',
+    desc: 'Mulți oameni confundă controlul cu siguranța emoțională ...',
+    image: 'control_siguranta2.jpg',
+    date: '29 Mai',
+    index: 95
   },
 ]
 
