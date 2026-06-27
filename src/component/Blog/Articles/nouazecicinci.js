@@ -1,4 +1,4 @@
-const Nouazecipatru = () => {
+const Nouazecicinci = () => {
   return <div className="articol">
     <p>✻ ✻ ✻</p> 
     <p style={{ marginBottom: "25px"}} />
@@ -187,4 +187,4 @@ const Nouazecipatru = () => {
   </div>
   };
 
-export default Nouazecipatru;  
+export default Nouazecicinci;  

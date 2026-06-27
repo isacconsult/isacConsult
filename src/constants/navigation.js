@@ -98,6 +98,10 @@ export const navigationItems = [
   { position: 93, name: 'Diferența dintre comportament și valoarea personală', url: `${siteUrl}/articole/nouazecitrei` },
   { position: 94, name: 'Putere și Respect', url: `${siteUrl}/articole/nouazecipatru` },
   { position: 95, name: 'Control vs Siguranță în relații (2)', url: `${siteUrl}/articole/nouazecicinci` },
+  { position: 96, name: 'Rolul și poziția în relația dintre părinți și copii', url: `${siteUrl}/articole/nouazecisase` },
+  { position: 97, name: 'Rolul și poziția în relația de iubire', url: `${siteUrl}/articole/nouazecisapte` },
+  { position: 98, name: 'Rolul, poziția și interpretarea celuilalt', url: `${siteUrl}/articole/nouazeciopt` },
+  { position: 99, name: 'Despre poziție, roluri negative și felul în care sunt perceput', url: `${siteUrl}/articole/nouazecinoua` },
 ];
 
 export const siteNavScript = {

@@ -759,6 +759,38 @@ const articleData = [
     date: '29 Mai',
     index: 95
   },
+  {
+    title: 'Rolul și poziția în relația dintre părinți și copii',
+    slug: 'nouazecisase',
+    desc: 'Mulți oameni cred că atunci când devin parinți primesc automat și ...',
+    image: 'rol_pozitie.jpg',
+    date: '22 Iun',
+    index: 96
+  },
+  {
+    title: 'Rolul și poziția în relația de iubire',
+    slug: 'nouazecisapte',
+    desc: 'Mulți oameni cred că atunci când doi parteneri intră într-o relație și ...',
+    image: 'rol_pozitie.jpg',
+    date: '27 Iun',
+    index: 97
+  },
+  {
+    title: 'Rolul, poziția și interpretarea celuilalt',
+    slug: 'nouazeciopt',
+    desc: 'În relațiile dintre oameni, mulți cred că poziția pe care o au este determinată ...',
+    image: 'rol_pozitie.jpg',
+    date: '27 Iun',
+    index: 98
+  },
+  {
+    title: 'Despre poziție, roluri negative și felul în care sunt perceput',
+    slug: 'nouazecinoua',
+    desc: 'De-a lungul timpului am observat un fenomen interesant în relațiile dintre oameni ...',
+    image: 'rol_pozitie.jpg',
+    date: '27 Iun',
+    index: 99
+  },
 ]
 
 export default articleData;
