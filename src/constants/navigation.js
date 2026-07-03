@@ -102,6 +102,8 @@ export const navigationItems = [
   { position: 97, name: 'Rolul și poziția în relația de iubire', url: `${siteUrl}/articole/nouazecisapte` },
   { position: 98, name: 'Rolul, poziția și interpretarea celuilalt', url: `${siteUrl}/articole/nouazeciopt` },
   { position: 99, name: 'Despre poziție, roluri negative și felul în care sunt perceput', url: `${siteUrl}/articole/nouazecinoua` },
+  { position: 100, name: 'Când poziția este confundată cu puterea de decizie', url: `${siteUrl}/articole/osuta` },
+  
 ];
 
 export const siteNavScript = {

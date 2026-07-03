@@ -771,7 +771,7 @@ const articleData = [
     title: 'Rolul și poziția în relația de iubire',
     slug: 'nouazecisapte',
     desc: 'Mulți oameni cred că atunci când doi parteneri intră într-o relație și ...',
-    image: 'rol_pozitie.jpg',
+    image: 'rol_pozitie_iubire.jpg',
     date: '27 Iun',
     index: 97
   },
@@ -779,7 +779,7 @@ const articleData = [
     title: 'Rolul, poziția și interpretarea celuilalt',
     slug: 'nouazeciopt',
     desc: 'În relațiile dintre oameni, mulți cred că poziția pe care o au este determinată ...',
-    image: 'rol_pozitie.jpg',
+    image: 'rol_pozitie_interpretare.jpg',
     date: '27 Iun',
     index: 98
   },
@@ -787,9 +787,17 @@ const articleData = [
     title: 'Despre poziție, roluri negative și felul în care sunt perceput',
     slug: 'nouazecinoua',
     desc: 'De-a lungul timpului am observat un fenomen interesant în relațiile dintre oameni ...',
-    image: 'rol_pozitie.jpg',
+    image: 'isac_creion.jpg',
     date: '27 Iun',
     index: 99
+  },
+  {
+    title: 'Când poziția este confundată cu puterea de decizie',
+    slug: 'osuta',
+    desc: 'De-a lungul activității mele de consultant comportamental am observat un ...',
+    image: 'pozitie_decizie.jpg',
+    date: '27 Iun',
+    index: 100
   },
 ]
 
