@@ -799,6 +799,38 @@ const articleData = [
     date: '27 Iun',
     index: 100
   },
+  {
+    title: 'Am dovezi că este adevărat sau doar mi se pare convingător?',
+    slug: 'osutaunu',
+    desc: 'În fiecare zi auzim sute de informații. Le vedem la televizor ...',
+    image: 'adevar_convingere.jpg',
+    date: '13 Iul',
+    index: 101
+  },
+  {
+    title: 'De ce îi credem mai ușor pe cei care seamănă cu noi?',
+    slug: 'osutadoi',
+    desc: 'În fiecare zi întâlnim oameni care ne spun ce cred despre viață, despre oameni și despre lume ...',
+    image: 'adevar_convingere.jpg',
+    date: '13 Iul',
+    index: 102
+  },
+  {
+    title: 'De ce nu este suficient că cineva seamănă cu noi pentru a avea încredere în el?',
+    slug: 'osutatrei',
+    desc: 'În viață întâlnim oameni care, încă de la prima discuție, par foarte asemănători cu noi ...',
+    image: 'adevar_convingere.jpg',
+    date: '13 Iul',
+    index: 103
+  },
+  {
+    title: 'Vorbele îți spun cine spune că este. Faptele îți arată cine este cu adevărat.',
+    slug: 'osutapatru',
+    desc: 'În fiecare zi întâlnim oameni care vorbesc despre ei. Unii spun că sunt sinceri ...',
+    image: 'adevar_convingere.jpg',
+    date: '13 Iul',
+    index: 104
+  },
 ]
 
 export default articleData;

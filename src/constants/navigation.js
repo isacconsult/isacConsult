@@ -103,7 +103,10 @@ export const navigationItems = [
   { position: 98, name: 'Rolul, poziția și interpretarea celuilalt', url: `${siteUrl}/articole/nouazeciopt` },
   { position: 99, name: 'Despre poziție, roluri negative și felul în care sunt perceput', url: `${siteUrl}/articole/nouazecinoua` },
   { position: 100, name: 'Când poziția este confundată cu puterea de decizie', url: `${siteUrl}/articole/osuta` },
-  
+  { position: 101, name: 'Am dovezi că este adevărat sau doar mi se pare convingător?', url: `${siteUrl}/articole/osutaunu` },
+  { position: 102, name: 'De ce îi credem mai ușor pe cei care seamănă cu noi?', url: `${siteUrl}/articole/osutadoi` },
+  { position: 103, name: 'De ce nu este suficient că cineva seamănă cu noi pentru a avea încredere în el?', url: `${siteUrl}/articole/osutatrei` },
+  { position: 104, name: 'Vorbele îți spun cine spune că este. Faptele îți arată cine este cu adevărat.', url: `${siteUrl}/articole/osutapatru` },
 ];
 
 export const siteNavScript = {
