@@ -811,7 +811,7 @@ const articleData = [
     title: 'De ce îi credem mai ușor pe cei care seamănă cu noi?',
     slug: 'osutadoi',
     desc: 'În fiecare zi întâlnim oameni care ne spun ce cred despre viață, despre oameni și despre lume ...',
-    image: 'adevar_convingere.jpg',
+    image: 'credem_usor.jpg',
     date: '13 Iul',
     index: 102
   },
@@ -819,7 +819,7 @@ const articleData = [
     title: 'De ce nu este suficient că cineva seamănă cu noi pentru a avea încredere în el?',
     slug: 'osutatrei',
     desc: 'În viață întâlnim oameni care, încă de la prima discuție, par foarte asemănători cu noi ...',
-    image: 'adevar_convingere.jpg',
+    image: 'seamana_incredere.jpg',
     date: '13 Iul',
     index: 103
   },
@@ -827,7 +827,7 @@ const articleData = [
     title: 'Vorbele îți spun cine spune că este. Faptele îți arată cine este cu adevărat.',
     slug: 'osutapatru',
     desc: 'În fiecare zi întâlnim oameni care vorbesc despre ei. Unii spun că sunt sinceri ...',
-    image: 'adevar_convingere.jpg',
+    image: 'vorbe_fapte.jpg',
     date: '13 Iul',
     index: 104
   },
