@@ -149,6 +149,10 @@ h6 {
   margin-left: auto;
   margin-right: auto;
 }
+.title_p.bigger {
+  font-size: 18px;
+  color:#000;
+}
 
 /* Main title css
 ============================================================================================ */

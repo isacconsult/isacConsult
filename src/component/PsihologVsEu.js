@@ -9,30 +9,31 @@ class PsihologVsEu extends Component{
             <section className={`${wClass}`}>
                 <div className="container">
                   <div className="section_title text-center">
-                    <Reveal  effect="fadeInUp"><h2 className="mb_0 title_h2 t_color">CE FACE PSIHOLOGUL ŞI CE FAC EU (PE ROMÂNEŞTE)</h2></Reveal>
+                    <Reveal  effect="fadeInUp"><h2 className="mb_0 title_h2 t_color">CE FACE ISAC ŞI CE FACE PSIHOLOGUL</h2></Reveal>
+                    <Reveal  effect="fadeInUp"><h2 className="mb_0 title_h2 t_color">(PE ROMÂNEŞTE)</h2></Reveal>
                     <Reveal  effect="fadeInUp" duration={1500}>
-                      <p className="mb_0 title_p">Psihologul: te ajută să te înțelegi.</p>
+                      <p className=" title_p bigger">ISAC te ajută să nu mai pățesti acelși lucru.</p>
                     </Reveal>
                     <Reveal  effect="fadeInUp" duration={1500}>
-                      <p className="mb_0 bold_text">Eu: te ajut să nu mai pățesti acelși lucru.</p>
+                      <p>Psihologul te ajută să te înțelegi.</p>
                     </Reveal>
                     <Reveal  effect="fadeInUp" duration={1500}>
-                      <p className="mb_0 title_p">Psihologul lucrează cu ce este în capul tău.</p>
+                      <p className=" title_p bigger">ISAC lucrează cu ce se întâmplă între tine și ceilalți.</p>
                     </Reveal>
                     <Reveal  effect="fadeInUp" duration={1500}>
-                      <p className="mb_0 bold_text">Eu lucrez cu ce se întâmplã între tine și ceilalți.</p>
+                      <p>Psihologul lucrează cu ce este în capul tău.</p>
                     </Reveal>
                     <Reveal  effect="fadeInUp" duration={1500}>
-                      <p className="mb_0 title_p">Psihologul reduce suferința prin explicație.</p>
+                      <p className="title_p bigger">ISAC reduce suferința schimbând situația concretă.</p>
                     </Reveal>
                     <Reveal  effect="fadeInUp" duration={1500}>
-                      <p className="mb_0 bold_text">Eu o reduc schimbând situația concretă.</p>
+                      <p>Psihologul o reduce prin explicație.</p>
                     </Reveal>
                     <Reveal  effect="fadeInUp" duration={1500}>
-                      <p className="mb_0 title_p">Psihologia explică omul.</p>
+                      <p className="title_p bigger">ISAC schimbă jocul în care omul trăiește.</p>
                     </Reveal>
                     <Reveal  effect="fadeInUp" duration={1500}>
-                      <p className="mb_0 bold_text">Eu schimb jocul în care omul trăiește.</p>
+                      <p>Psihologia explică omul.</p>
                     </Reveal>
                      <Reveal  effect="fadeInUp" duration={1500}>
                       <Link className="theme_btn nav-link" to="/articole/treizeciunu">👉 Citește</Link>
