@@ -26,13 +26,13 @@ export const Home4 = () => (
       <PsihologVsEu wClass="work_area_two"/>
       <CuCineLucrez wClass="work_area" isacData={isacData}/>
       <Oferta wClass="work_area_two" isacData={isacData}/>
-      <CtaFinal wClass="work_area"/>
-      <Skill/>
+      <CtaFinal wClass="work_area"/>   
       <Contact isacData={isacData}/>
       <Footer isacData={isacData}/>
 
        {/* 
         <Portfolio/>
+        <Skill/>
         <Testimonial/>
         <Clientslogo/>
          <Blog/>
